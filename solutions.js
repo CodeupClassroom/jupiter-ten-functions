@@ -58,5 +58,5 @@ function and(inputOne, inputTwo) {
 }
 
 function concat(inputOne, inputTwo) {
-    return inputOne + inputTwo;
+    return "" + inputOne + "" + inputTwo;
 }

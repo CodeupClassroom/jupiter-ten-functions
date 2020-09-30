@@ -40,3 +40,7 @@ function addOne(input){
 function isEven(x){
     return parseInt(x) % 2 === 0;
 }
+//2.
+function isIdentical(x, y){
+    return x === y;
+}

@@ -62,3 +62,7 @@ function or(x, y){
 function and(x, y){
     return x && y;
 }
+
+function concat(x, y){
+    return x.toString() + y.toString();
+}

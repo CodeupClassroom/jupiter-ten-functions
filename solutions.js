@@ -25,10 +25,15 @@ function isTrue(input){
     return input === true;
 }
 //3.
-function isFalse(value) {
+function isFalse(value){
     return value === false;
 }
 //4.
 function not(input) {
-    return !input
+    return !input;
 }
+//5.
+function addOne(input){
+    return Number(input) + 1;
+}
+//6.

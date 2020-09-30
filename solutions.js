@@ -54,3 +54,11 @@ function isIdentical(x, y){
 function isEqual(x, y){
     return x == y;
 }
+
+function or(x, y){
+    return x || y;
+}
+
+function and(x, y){
+    return x && y;
+}

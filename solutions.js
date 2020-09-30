@@ -87,8 +87,9 @@
 //Define a function named `concat` that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
 
     function concat(x, y) {
-        var var1 = x;
-        var var2 = y;
-        return var1 + var2;
+        var var1 = x.toString();
+        var var2 = y.toString();
+        var var3 = var1.concat(var2);
+        return var3 ;
 
     }

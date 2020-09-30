@@ -57,3 +57,11 @@ function isEven(input){
 function isIdentical(input1, input2){
     return (input1 === input2);
 }
+
+// 7. Define a function named `isEqual` that takes in two input arguments. If each argument is equal only in value, then return true. Otherwise return false.
+
+function isEqual(input1, input2){
+    return (input1 == input2);
+}
+
+

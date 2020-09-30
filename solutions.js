@@ -20,3 +20,38 @@
  * and
  * concat
  */
+// Define a function named `isTrue` that takes in any input and returns true if
+//     the input provided is exactly equal to `true` in value and data type.
+
+    function isTrue(word) {
+    return word === true;
+}
+//
+// 2. Define a function named `isFalse` that takes in a value and returns a true if and only if the provided input is equal to false in both type and value.
+
+    function isFalse(x) {
+        return x === false;
+    }
+
+// Define a function named `not` that takes in any input and returns the boolean opposite of the provided input.
+
+    function not(x){
+        if(x == true){
+            return false;
+        }else{
+            return true;
+        }
+    }
+
+// Define a function named `addOne` that takes in a single input. If the input is a number or a numeric string, return the value plus one.
+
+    function addOne(x) {
+        return x + 1;
+
+    }
+    console.log(addOne());
+
+//Define a function named `isEven` that takes in a single input. If the input is an even number or a string containing an even number, return `true`. Any other input should return false for the output.
+    function isEven(x){
+        return x
+    }

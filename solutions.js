@@ -30,5 +30,6 @@ function isFalse(input){
 }
 
 function not(input){
-
+    return !input === true
 }
+

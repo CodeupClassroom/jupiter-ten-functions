@@ -37,6 +37,10 @@ function isFalse(value) {
 
 // 3. Define a function named `not` that takes in any input and returns the boolean opposite of the provided input.
 
+function not(input) {
+    return (!input);
+}
+
 // 4. Define a function named `addOne` that takes in a single input. If the input is a number or a numeric string, return the value plus one.
 
 // 5. Define a function named `isEven` that takes in a single input. If the input is an even number or a string containing an even number, return `true`. Any other input should return false for the output.

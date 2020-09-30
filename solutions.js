@@ -52,3 +52,11 @@ function isEqual(x,y){
 function or(x,y){
     return (x || y);
 }
+
+function and(x,y){
+    return (x && y);
+}
+
+function concat(x,y){
+    return (""+x+y);
+}

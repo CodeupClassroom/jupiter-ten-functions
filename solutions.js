@@ -110,5 +110,6 @@ function and(x,y) {
 // If two numbers are provided, then return the string concatenation of each set of numerals.
 
 function concat(x,y) {
-
+    return (x + y)
 }
+

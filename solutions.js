@@ -20,3 +20,33 @@
  * and
  * concat
  */
+
+function isTrue(input) {
+    if (input === true) return true
+    else return false
+}
+
+function isFalse (value) {
+    if (value === false) return true
+    else return false
+}
+
+function not(input) {
+    return !input
+}
+
+function addOne(input) {
+    if (input == Number(input) && !isNaN(input)) {
+        return Number(input) + 1
+    }
+}
+
+function isEven(input) {
+    if (Number(input) % 2 == 0) return true
+    else return false
+}
+
+function isIdentical(input1, input2) {
+    if (input1 === input2) return true
+    else return false
+}

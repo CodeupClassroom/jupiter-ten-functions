@@ -60,5 +60,9 @@ function isIdentical(input1, input2){
 }
 
 function isEven(x){
-   return (x % 2 === 0);
+   //cover some weird instance with false being passed through
+   if(typeof (x) === "boolean") {
+      return false;
+   }
+   return (Number(x) % 2 === 0);
 }

@@ -48,3 +48,8 @@ function isIdentical(x, y){
 function isEqual(x, y){
     return x == y;
 }
+//4.
+function or(x, y){
+    return x || y;
+}
+//5.

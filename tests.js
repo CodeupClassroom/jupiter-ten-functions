@@ -47,6 +47,14 @@
     return inputOne || inputTwo;
   }
 
+function and(inputOne, inputTwo) {
+  return inputOne && inputTwo;
+}
+
+function concat(inputOne, inputTwo) {
+  return inputOne.toString() + inputTwo;
+}
+
 
 
 

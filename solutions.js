@@ -50,3 +50,7 @@ function isEven(input) {
     return input % 2 == 0;
 }
 
+//2
+function isIdentical(input1, input2) {
+    return input1 === input2;
+}

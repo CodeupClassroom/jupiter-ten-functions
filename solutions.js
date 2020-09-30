@@ -30,5 +30,25 @@ function isFalse(x){
 }
 
 function not(x){
-    return x !== true;
+    return !x === true;
+}
+
+function addOne(x){
+    return (++x);
+}
+
+function isEven(x){
+    return (x % 2 == 0);
+}
+
+function isIdentical(x,y){
+    return (x === y)
+}
+
+function isEqual(x,y){
+    return (x == y);
+}
+
+function or(x,y){
+    return (x || y);
 }

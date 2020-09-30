@@ -32,4 +32,30 @@ function not(input){
     return !input
 }
 
-function
+function addOne(input){
+    return ++input
+}
+
+function isEven(input){
+    return input % 2 === 0
+}
+
+function isIdentical(x, y){
+    return x === y
+}
+
+function isEqual(x, y){
+    return x == y
+}
+
+function or(x, y){
+    return x || y
+}
+
+function and(x, y){
+    return x && y
+}
+
+function concat(x, y){
+    return ("" + x + y)
+}

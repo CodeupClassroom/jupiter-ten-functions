@@ -23,6 +23,14 @@
     return input === false;
   }
 
+  function not(input) {
+
+  }
+
+  function addOne(input) {
+     return (Number(input) + 1);
+  }
+
 
   const randomBoolean = Boolean(Math.round(Math.random()))
   const randomNumber = Math.ceil(Math.random() * 100)

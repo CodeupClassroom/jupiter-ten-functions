@@ -46,8 +46,8 @@ function addOne(input) {
 
 
 //1
-function isEven(input) {
-    return input % 2 == 0;
+function isEven(num) {
+    return (num % 2 == 0) && !(typeof num == "boolean");
 }
 
 //2
@@ -68,4 +68,13 @@ function or(input1, input2) {
 //1
 function and (input1, input2) {
     return input1 && input2;
+}
+
+//1
+function concat(inputOne, inputTwo) {
+    if(typeof inputOne && inputTwo === "string") {
+        return inputOne + inputTwo;
+    } else {
+        return inputOne.toString() + inputTwo.toString();
+    }
 }

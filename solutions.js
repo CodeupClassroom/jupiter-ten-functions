@@ -55,3 +55,7 @@ function concat(input1, input2){
    return (input1.toString() + input2.toString());
 }
 
+function isIdentical(input1, input2){
+   return (input1 === input2);
+}
+

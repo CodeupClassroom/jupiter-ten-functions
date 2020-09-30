@@ -38,7 +38,7 @@
     function not(x){
         if(x == true){
             return false;
-        }else{
+        }else {
             return true;
         }
     }

@@ -20,3 +20,24 @@
  * and
  * concat
  */
+function isTrue(input){
+   return input === true
+
+}
+
+function isFalse(value){
+    return value === true && false;
+   }
+
+  console.log(isFalse());
+
+
+function not(word){
+    return word !== true ;
+}
+console.log(not(random));
+
+function addOne(singleinput){
+    if(singleinput === );
+    return result ;
+}

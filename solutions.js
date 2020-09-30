@@ -70,4 +70,8 @@ function or(input1, input2){
     return (input1 || input2);
 }
 
+// 9. Define a function named `and` that takes in two input arguments and returns the result of a logical `and` operation of both inputs.
 
+function and(input1, input2){
+    return (input1 && input2);
+}

@@ -60,7 +60,7 @@
         isFalse("Banana")          // false
         isFalse([1, 2])            // false
 
-2. Define a function named `isFalse` that takes in a value and returns a true if and only if the provided input is equal to false in both type and value.
+3. Define a function named `not` that takes in any input and returns the boolean opposite of the provided input.
 
         not(false)                  // true
         not(0)                      // true

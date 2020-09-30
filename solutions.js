@@ -33,3 +33,10 @@ function isTrue(input){
 function isFalse(input){
     return input === false;
 }
+
+// 3. Define a function named `not` that takes in any input and returns the boolean opposite of the provided input.
+
+function not(input){
+    return !input;
+}
+

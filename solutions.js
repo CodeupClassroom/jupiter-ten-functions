@@ -68,3 +68,9 @@ function and(x,y){
     return (x && y);
 }
 
+function concat(x,y) {
+    if (x == "string" && y == "string") {
+        return (x + y)
+    } else (x == "number" && y == "number")
+    return (x.toString() + y.toString());
+}

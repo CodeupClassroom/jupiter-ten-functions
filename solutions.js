@@ -87,9 +87,38 @@ function isEqual(x, y){
 }
 
 // 8. Define a function named `or` that takes in two input arguments. The output returned should be the result of an `or` operation on both inputs.
-
+function or(x, y){
+if(x=== true || y === true){
+    return true;
+}else if(isNaN(x) && (isNaN(y)) ){
+return x;
+}else {
+    return false;
+}
+}
 
 // 9. Define a function named `and` that takes in two input arguments and returns the result of a logical `and` operation of both inputs.
-
+function and(x, y){
+    if(x === false && y === false){
+        return false;
+    } else if(x === false && y === true){
+        return false;
+    }else if(isNaN(x) && (isNaN(y)) ) {
+        return y;
+    } else {
+        return true;
+    }
+}
 
 // 10. Define a function named `concat` that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
+function concat(x , y) {
+    if (x === true && y === true) {
+        x.toString(x);
+        y.toString(y);
+        return x + y
+    } else {
+        return toString(x) + toString(y);
+    }
+}
+
+console.log(concat(4, 2));

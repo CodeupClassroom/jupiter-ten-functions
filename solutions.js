@@ -52,4 +52,9 @@ function isEqual(x, y){
 function or(x, y){
     return x || y;
 }
-//5.
+//1.
+function and(x, y){
+    return x && y;
+}
+//1.
+

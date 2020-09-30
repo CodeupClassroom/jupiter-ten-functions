@@ -34,19 +34,19 @@ function not(input) {
 }
 
 function addOne(input) {
-    return input + 1;
+    return parseFloat(input) + 1;
 }
 
 function isEven(input) {
-    return input % 2 === 0;
+    return parseFloat(input) % 2 === 0;
 }
 
-function isIdentical(input) {
-    return input === input;
+function isIdentical(inputOne, inputTwo) {
+    return inputOne === inputTwo;
 }
 
-function isEqual(input) {
-    return input === input;
+function isEqual(inputOne, inputTwo) {
+    return inputOne == inputTwo;
 }
 
 function or(inputOne, inputTwo) {

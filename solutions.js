@@ -39,12 +39,17 @@ function not(input){
 }
 
 function addOne(num){
-    var sum= Number(num=num +1);
+    var sum= num= Number(num +1);
+    if (num<0)
+        sum=-num+1;
     return sum ;
 
 }
 function isEven(num){
     var check = (num % 2 === 0 || num === false )?true:false;
+    if (check===false){
+        return check=false;
+    }
     return check;
 }
 function  isIdentical(inputOne,inputTwo){
@@ -63,14 +68,27 @@ function isEqual(inputOne,inputTwo){
 return check;
 }
 function and(inputOne,inputTwo){
-  inputOne===inputTwo
+  if (inputOne===inputTwo){
+      return true;}
+      else if (inputOne ===typeof 'string' && inputTwo ===typeof 'string')
+          return false;
+      }
+
+
+
+function concat(inputOne,inputTwo) {
+    if (typeof inputOne === 'string' && typeof inputTwo === 'string') {
+        var isString = inputOne + inputTwo
+    } else if (typeof inputOne === 'number' && typeof inputTwo === 'number') {
+        return isString = inputOne + inputTwo;
+    }
 }
 
-function concat(inputOne,inputTwo){
-if (typeof inputOne==='string' && typeof inputTwo==='string'){
-    var isString= inputOne+inputTwo}
-else if (typeof inputOne==='number' && typeof inputTwo==='number'){
-    return  isString = inputOne +inputTwo;
+function or (inputOne,inputTwo){
+   var inputOneVal=isTrue(inputOne);
+   var inputOneVal=isTrue(inputTwo);
+    var check =(inputOne=== true || inputTwo===true)?true:false;
+    if(inputOne==="hello")
+return check;
 }
 
-}

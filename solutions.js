@@ -79,3 +79,23 @@
 
 
 
+    function isEqual(c,d) {
+        if (c == d) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
+
+
+
+    function or(e,f) {
+        return e || f;
+    }
+
+
+
+
+

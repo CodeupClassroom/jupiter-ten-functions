@@ -42,3 +42,8 @@ function isEqual(x, y){
 function addOne(x){
    return Number(x) + 1;
 }
+
+function or(input1, input2){
+   return (input1 || input2);
+}
+

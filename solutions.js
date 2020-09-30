@@ -10,6 +10,7 @@
  *
  * This file is for defining the following functions. See README.md for more detail.
  * isTrue
+ *
  * isFalse
  * not
  * addOne
@@ -20,3 +21,16 @@
  * and
  * concat
  */
+
+//isTrue
+function isTrue(input){
+    return input === true;
+}
+
+// Define a function named isFalse that takes in a value and returns a true if and only if the provided input is equal to false in both type and value.
+
+function isFalse(input){
+    return input === false;
+}
+
+function

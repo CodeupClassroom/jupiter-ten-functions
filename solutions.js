@@ -46,3 +46,7 @@ function isEven(input) {
         return false
     }
 }
+
+function isIdentical(x, y){
+    return x === y;
+}

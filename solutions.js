@@ -21,18 +21,32 @@
  * concat
  */
 
+//2
 function isTrue(input) {
     return input === true;
 }
 
+
+//3
 function isFalse(input) {
     return input === false;
 }
 
+
+//4
 function not(input) {
     return !input;
 }
 
+
+//5
 function addOne(input) {
     return Number(input) + 1;
 }
+
+
+//1
+function isEven(input) {
+    return input % 2 == 0;
+}
+

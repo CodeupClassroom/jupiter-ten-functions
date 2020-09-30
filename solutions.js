@@ -36,4 +36,7 @@ function not(input) {
 function addOne(input){
     return Number(input) + 1;
 }
-//6.
+//1.
+function isEven(x){
+    return parseInt(x) % 2 === 0;
+}

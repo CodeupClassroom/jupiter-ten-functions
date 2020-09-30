@@ -42,8 +42,9 @@ function addOne(input) {
 }
 
 function isEven(input) {
-    if ((Number(input) % 2 == 0) && input != false || input == 0) {return true}
-    else if (input == false) {
+    if ((Number(input) % 2 == 0 && input !== false) || (input == 0 && input !== false)) {
+        return true
+    } else if (input == false || input === false) {
         return false
     } else {
         return false

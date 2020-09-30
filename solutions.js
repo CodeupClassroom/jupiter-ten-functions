@@ -20,3 +20,16 @@
  * and
  * concat
  */
+
+// function isTrue(input){
+//
+//     return input === true;
+//
+// }
+
+function isFalse(input){
+
+    if(input === false){
+        return true;
+    }
+}

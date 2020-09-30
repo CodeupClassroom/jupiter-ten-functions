@@ -31,6 +31,24 @@
      return (Number(input) + 1);
   }
 
+  function isEven(input) {
+    return (parseInt(input) % 2 === 0);
+  }
+
+  function isIdentical(inputOne, inputTwo) {
+   return inputOne === inputTwo;
+  }
+
+  function isEqual(inputOne, inputTwo) {
+    return inputOne == inputTwo;
+  }
+
+  function or(inputOne, inputTwo) {
+    return inputOne || inputTwo;
+  }
+
+
+
 
   const randomBoolean = Boolean(Math.round(Math.random()))
   const randomNumber = Math.ceil(Math.random() * 100)

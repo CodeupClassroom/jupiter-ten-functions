@@ -99,3 +99,11 @@
 
 
 
+    function and(g,h) {
+        return g && h;
+    }
+
+
+
+
+

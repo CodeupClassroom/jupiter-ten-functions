@@ -24,20 +24,26 @@ function isTrue(input){
    return input === true
 
 }
+console.log(isTrue());
 
 function isFalse(value){
-    return value === true && false;
+
+    return value === (true && false);
    }
 
   console.log(isFalse());
 
 
 function not(word){
-    return word !== true ;
+    return word !== (true && 5);
 }
-console.log(not(random));
+console.log(not());
 
-function addOne(singleinput){
-    if(singleinput === );
-    return result ;
+
+function addOne(singleinput, a){
+    return (singleinput - 1);
 }
+
+console.log(addOne());
+
+

@@ -27,9 +27,61 @@
 //
 // }
 
-function isFalse(input){
+// function isFalse(Number){
+//
+//     if(Number === false){
+//         return true;
+//     }else {
+//         return false;
+//     }
+// }
 
-    if(input === false){
-        return true;
-    }
-}
+// function not(Number) {
+//
+//     if (Number === true) {
+//         return false;
+//     }
+//
+//     return true;
+// }
+
+// function addOne(input5){
+//
+//     if (input5 === toString() || Number){
+//         return (input5 + 1);
+//
+//     }
+//
+// }
+
+
+// function isEven(input1){
+//
+//     if(input1 % 2 === 0){
+//         return true;
+//     }
+//     return false;
+// }
+
+// function isIdentical(input1, input2){
+//
+//     if(input1 === input2){
+//         return true;
+//     }
+//     return false;
+//
+//
+// }
+
+// function isEqual(in1, in2){
+//
+//     if(in1 == in2){
+//         return true;
+//     }
+//     return false;
+// }
+
+// function or(in1, in2){
+//
+//     return or(in1, in2);
+// }

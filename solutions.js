@@ -29,4 +29,6 @@ function isFalse(value) {
     return value === false;
 }
 //4.
-
+function not(input) {
+    return !input
+}

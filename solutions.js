@@ -57,4 +57,6 @@ function and(x, y){
     return x && y;
 }
 //1.
-
+function concat(x,y){
+    return x.toString() + y.toString();
+}

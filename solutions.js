@@ -55,3 +55,22 @@
 
 
 
+    function isEven(y) {
+        if (Number(y) % 2) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
+
+
+
+    function isIdentical(a,b) {
+        if (a === b) {
+            return true;
+        } else {
+            return false;
+        }
+    }

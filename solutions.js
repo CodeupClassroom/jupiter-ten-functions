@@ -20,3 +20,31 @@
  * and
  * concat
  */
+function isTrue(input) {
+    return input === true
+}
+    function isFalse(input){
+return input === false
+}
+function not(x){
+    return x == 0
+    if ( x == ""){
+    }
+}
+function addOne(c)
+{
+    return c + 1
+}
+
+//i have no idea how to make 0 + 1 withourt messing everything up on the page
+/// i failed for sure
+
+function isEven(s) {
+    if (s % 2 == 0,-8,-4) {
+        return true
+    } else false
+
+}
+
+
+

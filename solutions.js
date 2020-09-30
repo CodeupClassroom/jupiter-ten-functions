@@ -31,6 +31,10 @@ function isTrue(input)  {
 // 2. Define a function named `isFalse` that takes in a value and returns a true if and only if the provided input is
 // equal to false in both type and value.
 
+function isFalse(value) {
+    return value === false;
+}
+
 // 3. Define a function named `not` that takes in any input and returns the boolean opposite of the provided input.
 
 // 4. Define a function named `addOne` that takes in a single input. If the input is a number or a numeric string, return the value plus one.
@@ -46,44 +50,3 @@ function isTrue(input)  {
 // 9. Define a function named `and` that takes in two input arguments and returns the result of a logical `and` operation of both inputs.
 
 // 10. Define a function named `concat` that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
-
-// ## Hints
-//
-// Consider this example problem.
-//
-// > Write a function called `isBoolean` that takes in a value and returns a boolean if the argument provided is a boolean value or not.
-//
-// - `isBoolean("Dog")` should return `false` because a string is not a boolean
-// - `isBoolean(false)` should return `true` because only true and false are boolean values.
-// - When a problem says `return`, it means `return`, not `console.log`.
-// - When a problem says that a function will take in an input, then it means the function must be defined so that it takes in an argument as its input, rather than relying on variables defined outside the function.
-//
-// The following example is incorrect because the function does not take in an argument. It's referencing a global variable, and that is not the same as accepting an input as an argument.
-//
-// ```js
-// var input = "Grace Hopper"
-// function isBoolean() {
-//     return typeof input == "boolean";
-// }
-// ```
-//
-// This is incorrect because the function doesn't return the output. Functions that do not have an explicit `return` statement return `undefined` by default.
-//
-// ```js
-// function isBoolean(input) {
-//     console.log(typeof input == 'boolean');
-// }
-// ```
-//
-// Correct solution:
-//
-// ```js
-// function isBoolean(input) {
-//     return typeof input == "boolean";
-// }
-// ```
-//
-// ## About
-//
-// - Testing framework: <a href="https://github.com/jasmine/jasmine">Jasmine</a>
-// - "Ten Functions" Originally Made by [Ryan Orsinger](https://ryanorsinger.glitch.me/), adapted for use at [Codeup](https://codeup.com)

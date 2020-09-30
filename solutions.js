@@ -51,3 +51,26 @@ function  isIdentical(inputOne,inputTwo){
     var check =(inputOne!==inputTwo)?false:true;
     return check;
 }
+function isEqual(inputOne,inputTwo){
+ var check = (inputOne!==inputTwo)
+    if (!check == 0 && !check== "false") {
+       return true; }
+    else if(!check ==1  && !check =="true" )
+    {return true;
+    }else {
+        return false;
+    }
+return check;
+}
+function and(inputOne,inputTwo){
+  inputOne===inputTwo
+}
+
+function concat(inputOne,inputTwo){
+if (typeof inputOne==='string' && typeof inputTwo==='string'){
+    var isString= inputOne+inputTwo}
+else if (typeof inputOne==='number' && typeof inputTwo==='number'){
+    return  isString = inputOne +inputTwo;
+}
+
+}

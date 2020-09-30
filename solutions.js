@@ -20,7 +20,13 @@
  * and
  * concat
  */
-
+//2.
 function isTrue(input){
     return input === true;
 }
+//3.
+function isFalse(value) {
+    return value === false;
+}
+//4.
+

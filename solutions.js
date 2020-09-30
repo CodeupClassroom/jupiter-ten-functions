@@ -53,5 +53,40 @@
 
 //Define a function named `isEven` that takes in a single input. If the input is an even number or a string containing an even number, return `true`. Any other input should return false for the output.
     function isEven(x){
-        return x
+        return x % 2 == 0;
+    }
+
+// 6. Define a function named `isIdentical` that takes in two input arguments. If each input is equal both in data type and in value, then return `true`. If the values are not the same data type or not the same value, return `false`.
+    function isIdentical(x, y) {
+        return x === y;
+
+    }
+
+//Define a function named `isEqual` that takes in two input arguments. If each argument is equal only in value, then return true. Otherwise return false.
+
+    function isEqual(x, y) {
+        return x == y;
+
+    }
+
+
+//Define a function named `or` that takes in two input arguments. The output returned should be the result of an `or` operation on both inputs.
+
+    function or(x, y) {
+        return x || y;
+
+    }
+
+//Define a function named `and` that takes in two input arguments and returns the result of a logical `and` operation of both inputs.
+
+    function and(x, y) {
+        return x && y;
+
+    }
+
+//Define a function named `concat` that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
+
+    function concat(x, y) {
+        return
+
     }

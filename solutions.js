@@ -34,3 +34,24 @@
     function isFalse(value) {
         return value === false;
     }
+
+
+
+
+
+    function not(userInput) {
+        return !userInput;
+    }
+
+
+
+
+
+    function addOne(x) {
+        return Number(x) + 1;
+    }
+
+
+
+
+

@@ -22,5 +22,32 @@
  */
 function isTrue(input){
     return input === true;
+}
 
+function isFalse(input){
+    return input === false;
+}
+
+
+function not(input){
+    if (input === !input){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+function addOne(num){
+    var sum= Number(num=num +1);
+    return sum ;
+
+}
+function isEven(num){
+    var check = (num % 2 === 0 || num === false )?true:false;
+    return check;
+}
+function  isIdentical(inputOne,inputTwo){
+    var check =(inputOne!==inputTwo)?false:true;
+    return check;
 }

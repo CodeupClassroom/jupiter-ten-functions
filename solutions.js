@@ -44,3 +44,7 @@ function isEven(x){
 function isIdentical(x, y){
     return x === y;
 }
+//3.
+function isEqual(x, y){
+    return x == y;
+}

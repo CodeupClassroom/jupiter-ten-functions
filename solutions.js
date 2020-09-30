@@ -56,7 +56,7 @@
 
 
     function isEven(y) {
-        if (Number(y) % 2) {
+        if (y % 2 == 0) {
             return true;
         } else {
             return false;
@@ -74,3 +74,8 @@
             return false;
         }
     }
+
+
+
+
+

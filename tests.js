@@ -24,7 +24,7 @@
   }
 
   function not(input) {
-
+  return !(input == true);
   }
 
   function addOne(input) {

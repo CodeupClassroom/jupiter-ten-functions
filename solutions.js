@@ -39,3 +39,6 @@ function isEqual(x, y){
    return (x == y);
 }
 
+function addOne(x){
+   return Number(x) + 1;
+}

@@ -42,11 +42,34 @@ function addOne(input) {
 }
 
 function isEven(input) {
-    if (Number(input) % 2 == 0) return true
-    else return false
+    if ((Number(input) % 2 == 0) && input != false || input == 0) {return true}
+    else if (input == false) {
+        return false
+    } else {
+        return false
+    }
 }
 
 function isIdentical(input1, input2) {
     if (input1 === input2) return true
     else return false
+}
+
+function isEqual(input1, input2) {
+    if (input1 == input2) return true
+    else return false
+}
+
+function or(input1, input2) {
+    return (input1 || input2)
+}
+
+function and(input1, input2) {
+    return (input1 && input2)
+}
+
+function concat(input1, input2) {
+    if ((typeof input1 == 'string') && (typeof input2 == 'string')) return input1 + input2
+    else if ((typeof input1 == 'number') && (typeof input2 == 'number')) return input1.toString() + input2.toString()
+    else return input1.toString() + input2.toString()
 }

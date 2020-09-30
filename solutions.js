@@ -54,9 +54,19 @@ function addOne(input)	{
 
 // 5. Define a function named `isEven` that takes in a single input. If the input is an even number or a string containing an even number, return `true`. Any other input should return false for the output.
 
+// stuck on this one too
 
+function isEven(input)  {
+    var checkNum = input % 2;
+    if (checkNum === 0)    {
+        return "true";
+    }   else {
+        return "false"
+    }
+}
 
 // 6. Define a function named `isIdentical` that takes in two input arguments. If each input is equal both in data type and in value, then return `true`. If the values are not the same data type or not the same value, return `false`.
+
 
 // 7. Define a function named `isEqual` that takes in two input arguments. If each argument is equal only in value, then return true. Otherwise return false.
 

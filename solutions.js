@@ -59,11 +59,14 @@ console.log(addOne("0"));
 
 function isEven(input) {
     var userInput = parseInt(input);
-    if (userInput % 2 !== 1) {
+    if(input === true) {
+        return false;
+    } else if(userInput % 2 !== 1) {
         return true;
     }else {
         return false;
     }
+
 }
 
 console.log(isEven("banana"));

@@ -34,3 +34,8 @@ function isFalse(input){
 function not(input){
    return !input;
 }
+
+function isEqual(x, y){
+   return (x == y);
+}
+

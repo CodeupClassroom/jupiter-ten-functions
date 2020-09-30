@@ -27,3 +27,40 @@ function isTrue(input){
 function isFalse(input){
    return input === false;
 }
+
+function not(input){
+   input = !input
+   return input
+}
+
+function addOne(input){
+   if(!isNaN(input)){
+      return ++input;
+   }
+   }
+function isEven(input){
+    return(input == input + 0)
+}
+
+function isIdentical(input1, input2){
+  return input1 === input2;
+}
+
+function isEqual(input1, input2){
+   return input1 == input2;
+}
+
+function or(input1, input2){
+   return input1 || input2;
+}
+
+function and(input1, input2){
+   return input1 && input2;
+}
+
+function concat(input1, input2){
+   if(input1 == input2 ){
+      return input1.concat(input2)
+   }
+
+}

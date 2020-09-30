@@ -38,13 +38,7 @@ function addOne(input){
 }
 
 function isEven(input) {
-    if(Number(input) % 2 === 0){
-        return true
-    } else if(input === false){
-        return false
-    } else {
-        return false
-    }
+    return input % 2 === 0
 }
 
 function isIdentical(x, y){

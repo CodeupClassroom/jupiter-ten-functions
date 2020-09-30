@@ -59,3 +59,6 @@ function isIdentical(input1, input2){
    return (input1 === input2);
 }
 
+function isEven(x){
+   return (x % 2 === 0);
+}

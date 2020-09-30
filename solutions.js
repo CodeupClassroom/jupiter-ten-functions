@@ -28,15 +28,9 @@
     }
 
 
-
-
-
     function isFalse(value) {
         return value === false;
     }
-
-
-
 
 
     function not(userInput) {
@@ -44,15 +38,9 @@
     }
 
 
-
-
-
     function addOne(x) {
         return Number(x) + 1;
     }
-
-
-
 
 
     function isEven(y) {
@@ -64,10 +52,7 @@
     }
 
 
-
-
-
-    function isIdentical(a,b) {
+    function isIdentical(a, b) {
         if (a === b) {
             return true;
         } else {
@@ -76,10 +61,7 @@
     }
 
 
-
-
-
-    function isEqual(c,d) {
+    function isEqual(c, d) {
         if (c == d) {
             return true;
         } else {
@@ -88,28 +70,18 @@
     }
 
 
-
-
-
-    function or(e,f) {
+    function or(e, f) {
         return e || f;
     }
 
 
-
-
-
-    function and(g,h) {
+    function and(g, h) {
         return g && h;
     }
 
 
-
-
-
-    function concat (input1,input2) {
+    function concat(input1, input2) {
         return ("" + input1 + input2);
     }
-
 
 

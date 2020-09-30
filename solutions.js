@@ -33,4 +33,38 @@ function isFalse(input){
     return input === false;
 }
 
-function
+function not(input){
+    return !input;
+}
+
+function addOne(input){
+    return ++input;
+}
+
+function isEven(input){
+    return (input % 2 === 0 && input !== false);
+}
+
+function isIdentical(x,y){
+    if(x ===y) {
+        return true;
+    } else {
+        return false;
+    }
+}
+function isEqual(x,y) {
+    if (x == y) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function or(x,y){
+    return (x || y);
+}
+
+function and(x,y){
+    return (x && y);
+}
+
